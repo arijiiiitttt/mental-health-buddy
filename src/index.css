@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* For smooth circle scaling */
+.breathing-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(16, 185, 129, 0.6);
+  transition: transform 4s ease-in-out;
+}
