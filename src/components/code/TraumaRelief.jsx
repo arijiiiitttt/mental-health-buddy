@@ -50,7 +50,7 @@ export default function TraumaRelief() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-200 to-blue-200 p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen  p-6">
       <div className="flex flex-col items-center justify-center w-full max-w-lg text-center">
         {showBreathing ? (
           <div className="space-y-8">
